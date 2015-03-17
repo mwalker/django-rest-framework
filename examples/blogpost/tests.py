@@ -4,7 +4,7 @@
 from django.core.urlresolvers import reverse
 from django.test import TestCase
 from django.core.urlresolvers import reverse
-from django.utils import simplejson as json
+import json
 
 from djangorestframework.compat import RequestFactory
 from djangorestframework.views import InstanceModelView, ListOrCreateModelView
